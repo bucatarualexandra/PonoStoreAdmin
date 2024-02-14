@@ -18,6 +18,10 @@
     background: #f6f6f6;
     gap: 20px;
     cursor: pointer;
+    font-size: 20px;
+}
+.sidebar-item img{
+    width: 50px;
 }
 
 @media(max-width:800px){

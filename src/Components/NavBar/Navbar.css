@@ -8,10 +8,14 @@
     background: white;
 }
 .nav-logo{
-    width: 200px;
+    width: 70px;
 }
 .nav-profile{
     width: 75px;
+}
+.admin-logo{
+    display: flex;
+    font-size: 25px;
 }
 @media(max-width:800px){
     .navbar{

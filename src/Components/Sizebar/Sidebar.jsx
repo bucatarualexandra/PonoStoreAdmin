@@ -10,7 +10,7 @@ const Sidebar = () => {
       <Link to={"/addproduct"} style={{ textDecoration: "none" }}>
         <div className="sidebar-item">
           <img src={add_product_icon} alt="" />
-          <p>Add Product</p>
+          <p>Adaugă produs</p>
         </div>
       </Link>
 
@@ -18,7 +18,7 @@ const Sidebar = () => {
       <Link to={"/listproduct"} style={{ textDecoration: "none" }}>
         <div className="sidebar-item">
           <img src={list_product_icon} alt="" />
-          <p>Product List</p>
+          <p>Listează produsele</p>
         </div>
       </Link>
 

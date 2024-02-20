@@ -13,7 +13,7 @@ const Navbar = () =>{
     <img src={navlogo}  className="nav-logo" alt=""/>
     <h1>Pono</h1>
     </div>
-    <h1>Admin panel</h1>
+    <h1>Panou Administrator</h1>
     <img src={navProfile}  className="nav-profile" alt=""/>
     </div>
   )

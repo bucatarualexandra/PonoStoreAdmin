@@ -27,12 +27,12 @@
 }
 
 .listproduct-product-icon {
-    height: 80px;
+    height: 60px;
 }
 
 .listproduct-remove-icon {
     cursor: pointer;
-    width: 30%;
+    width:30%;
     margin: auto;
 }
 

@@ -32,12 +32,12 @@ const removeproduct =async (id)=>{
 
       <h1>All Product List</h1>
       <div className="listproduct-format-main">
-        <p> Products</p>
-        <p> Title</p>
-        <p> Old Price</p>
-        <p> New Price</p>
-        <p> Category</p>
-        <p> Remove</p>
+        <p> Produse</p>
+        <p> Denumire</p>
+        <p> Prețul vechi</p>
+        <p> Prețul nou</p>
+        <p> Categorie</p>
+        <p> Șterge</p>
       </div>
 <div className="listproduct-allproducts">
   <hr/>

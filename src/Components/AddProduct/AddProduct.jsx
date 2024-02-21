@@ -31,7 +31,7 @@ const AddProduct = () => {
 
     let formData = new FormData();
     images.forEach((image, index) => {
-      formData.append(`image${index + 1}`, image);
+      formData.append(`images`, image);
     })
 
     await fetch("http://localhost:4000/upload", {
@@ -40,11 +40,13 @@ const AddProduct = () => {
         Accept: "application/json",
       },
       body: formData,
-    }).then((resp) => resp.json()).then((data) => { responseData = data })
+    }).then((resp) => resp.json())
+    .then((data) => { responseData = data })
 
     if (responseData.success) {
-      product.images = responseData.image_urls;
+      product.image_urls= responseData.image_urls;
       console.log(product);
+
       await fetch("http://localhost:4000/addproduct", {
         method: "POST",
         headers: {
